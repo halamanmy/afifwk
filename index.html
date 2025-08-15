@@ -14,35 +14,36 @@
         font-family: "Inter", "Segoe UI", sans-serif;
       }
 
-      .hero-simple {
-        /* background-color: #1a202c; */
-        background-image: linear-gradient(147deg, #e7ffeb 0%, #98ffb5 70%);
-        color: #1a202c;
-      }
-
-      .highlight {
-        color: #db2518;
-        font-weight: 800;
-      }
-
-      .emoji-bounce {
-        animation: bounce 1.5s infinite;
-      }
-
-      @keyframes bounce {
-        0%,
-        100% {
-          transform: translateY(0);
-        }
-        50% {
-          transform: translateY(-5px);
-        }
+      .hero-professional {
+        /* Photo by Tima Miroshnichenko from Pexels */
+        background-image: linear-gradient(
+            rgba(20, 30, 48, 0.85),
+            rgba(36, 59, 85, 0.85)
+          ),
+          url("https://plus.unsplash.com/premium_photo-1673953510197-0950d951c6d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZG9jdG9yfGVufDB8fDB8fHww");
+        background-size: cover;
+        background-position: center;
       }
     </style>
     <link rel="icon" href="weKongsi.png" type="image/png" />
   </head>
 
   <body class="bg-gray-5 text-gray-500">
+    <!-- HEADER DESIGN -->
+    <header class="hero-professional text-white text-center py-20 px-6">
+      <div class="max-w-4xl mx-auto">
+        <h1 class="text-3xl md:text-5xl font-extrabold leading-tight mb-4">
+          Miliki Perlindungan Perubatan<br />
+          <span class="text-yellow-400">RM1 Juta</span> Setahun <br />
+          Dengan Hanya <span class="text-yellow-400">Bawah RM50</span> Sebulan
+        </h1>
+        <p class="text-lg md:text-xl text-gray-300 mt-4 max-w-2xl mx-auto">
+          Jimat ratusan ringgit setiap bulan dan ribuan ringgit setiap tahun
+          dengan pelan perubatan yang direka untuk anda.
+        </p>
+      </div>
+    </header>
+
     <!-- WATERMARK -->
     <a
       href="https://naquib99.github.io/naquib_portfolio"
@@ -52,20 +53,6 @@
     >
       🛠 Naquib.dev
     </a>
-
-    <header class="hero-simple text-center py-20 px-6">
-      <div class="max-w-2xl mx-auto">
-        <h1 class="text-3xl md:text-5xl font-extrabold leading-tight mb-4">
-          Miliki Perlindungan Perubatan<br />
-          <span class="highlight">RM1 Juta</span> Setahun <br />
-          Dengan Hanya <span class="highlight">Bawah RM50</span> Sebulan
-        </h1>
-        <p class="text-lg md:text-xl text-gray-600 mt-4 max-w-2xl mx-auto">
-          Jimat ratusan ringgit setiap bulan dan ribuan ringgit setiap tahun
-          dengan pelan perubatan yang direka untuk anda.
-        </p>
-      </div>
-    </header>
 
     <main class="max-w-4xl mx-auto p-6 md:p-8">
       <!-- MASALAH -->
@@ -115,10 +102,10 @@
       <!-- PENGENALAN DIRI -->
       <section class="my-12 bg-white p-8 rounded-xl shadow-lg text-center">
         <p class="text-lg mb-4">
-          Izinkan saya perkenalkan diri. Saya <strong>Khairul Ashraff</strong>.
-          Dan saya bukan ejen takaful atau insurans. Saya sama seperti anda yang
-          mencari alternatif perlindungan perubatan yang lebih baik dan mampu
-          milik.
+          Izinkan saya perkenalkan diri. Saya
+          <strong>Mohd Afifuddin Bin Md Jamil</strong>. Dan saya bukan ejen
+          takaful atau insurans. Saya sama seperti anda yang mencari alternatif
+          perlindungan perubatan yang lebih baik dan mampu milik.
         </p>
         <p class="text-lg">
           Dulu, medical card memerlukan komitmen bulanan RM100-RM200 atau lebih.
@@ -477,7 +464,7 @@
         </h2>
         <div class="grid md:grid-cols-3 gap-8">
           <a
-            href="https://app.wekongsi.com/auth/register/usr_20230403_homlnx/referral"
+            href="https://app.wekongsi.com/auth/register/usr_20250430_xiwfca/referral"
             target="_blank"
             class="hover:bg-grey-600 transition-transform transform hover:scale-105 inline-block"
           >
@@ -488,7 +475,7 @@
             </div>
           </a>
           <a
-            href="https://app.wekongsi.com/auth/register/usr_20230403_homlnx/referral"
+            href="https://app.wekongsi.com/auth/register/usr_20250430_xiwfca/referral"
             target="_blank"
             class="hover:bg-grey-600 transition-transform transform hover:scale-105 inline-block"
           >
@@ -499,7 +486,7 @@
             </div>
           </a>
           <a
-            href="https://app.wekongsi.com/auth/register/usr_20230403_homlnx/referral"
+            href="https://app.wekongsi.com/auth/register/usr_20250430_xiwfca/referral"
             target="_blank"
             class="hover:bg-grey-600 transition-transform transform hover:scale-105 inline-block"
           >
@@ -983,14 +970,14 @@
         <!-- Buttons -->
         <div class="flex flex-row flex-wrap gap-2 justify-center">
           <a
-            href="https://app.wekongsi.com/auth/register/usr_20230403_homlnx/referral"
+            href="https://app.wekongsi.com/auth/register/usr_20250430_xiwfca/referral"
             target="_blank"
             class="bg-red-600 text-white font-semibold text-sm sm:text-base py-2 px-4 rounded-md shadow hover:bg-red-700 transition-transform transform hover:scale-105"
           >
             <i class="fas fa-user-plus mr-2"></i>Daftar Sekarang
           </a>
           <a
-            href="https://www.wasap.my/60184041229/Info+WK"
+            href="https://www.wasap.my/0136196804/Info+WK"
             target="_blank"
             class="bg-green-500 text-white font-semibold text-sm sm:text-base py-2 px-4 rounded-md shadow hover:bg-green-600 transition-transform transform hover:scale-105"
           >
